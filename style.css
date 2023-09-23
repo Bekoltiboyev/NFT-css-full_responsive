@@ -24,6 +24,7 @@ body {
     font-size: 38px;
     line-height: 45.5px;
     color: var(--oq);
+    margin-bottom: 14px;
 }
 /* text style */
 .text{
@@ -31,6 +32,7 @@ body {
     font-size: 22px;
     line-height: 35px;
     color: var(--oq);
+    margin-bottom: 10px;
 }
 
 
@@ -728,11 +730,9 @@ body {
 .bottom_left{
     width: 50%;
     height: 310px;
-    border: 2px solid red;
-    
 }
 .bottom_left_image_box{
-    max-width: 425px;
+    width: 90%;
     height: 100%;
 }
 .bottom_left_image_box img{
@@ -744,7 +744,6 @@ body {
 .bottom_right{
     width: 50%;
     height: 310px;
-    border: 2px solid red;
 }
 .form{
     width: 100%;
@@ -991,6 +990,62 @@ body {
         bottom: 40px;
         width: 84%;
     }
+    /* bottom section style start */
+    .bottom_section_container{
+        width: 100%;
+        height: auto;
+        border-radius: 20px;
+        background-color: transparent;
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+        
+    }
+    .bottom_left_image_box{
+        width: 100%;
+        height: 100%;
+    }
+    .bottom_left{
+        width: 100%;
+    }
+    .bottom_right{
+        width: 100%;
+        height: auto;
+    }
+
+    .form{
+        width: 100%;    
+        height: 108px;
+        border-radius: 20px;
+        background-color: transparent;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 25px;
+    }
+    .form input{
+        height: 46px;
+        width: 100%;
+        border: none;
+        outline: none;
+        border-radius: 20px;
+        padding: 0 15px;
+        font-size: 18px;
+        color: grey;
+    }
+    .bottom_btn{
+        height: 46px;
+        width: 100%;
+        border: none;
+        background-color: var(--bg);
+        border-radius: 20px;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 22px;
+        color: var(--oq);
+    }
+    
 
 }
 /* sm */
@@ -1229,6 +1284,61 @@ body {
         bottom: 40px;
         width: 84%;
     }
+    /* bottom section style start */
+    .bottom_section_container{
+        width: 100%;
+        height: auto;
+        border-radius: 20px;
+        background-color: transparent;
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+        
+    }
+    .bottom_left_image_box{
+        width: 100%;
+        height: 100%;
+    }
+    .bottom_left{
+        width: 100%;
+    }
+    .bottom_right{
+        width: 100%;
+        height: auto;
+    }
+
+    .form{
+        width: 100%;    
+        height: 108px;
+        border-radius: 20px;
+        background-color: transparent;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 25px;
+    }
+    .form input{
+        height: 46px;
+        width: 100%;
+        border: none;
+        outline: none;
+        border-radius: 20px;
+        padding: 0 15px;
+        font-size: 18px;
+        color: grey;
+    }
+    .bottom_btn{
+        height: 46px;
+        width: 100%;
+        border: none;
+        background-color: var(--bg);
+        border-radius: 20px;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 22px;
+        color: var(--oq);
+    }
 }
 @media screen and (min-width: 768px) {
     .menu_list{
@@ -1456,6 +1566,68 @@ body {
         width: 198px;
     }
 
+    /* bottom section style start */
+    .bottom_section_container{
+        width: 100%;
+        height: 360px;
+        border-radius: 20px;
+        background-color: #3B3B3B;
+        padding: 40px;
+        display: flex;
+        flex-direction: row;
+        column-gap: 20px;
+        
+    }
+    .bottom_left{
+        width: 50%;
+        height: 280px;
+    }
+    .bottom_right{
+        width: 50%;
+        height: auto;
+    }
+    .title{
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+    .text{
+        font-size: 16px;
+        line-height: 22px;
+        font-weight: 400;
+    }
+
+    .form{
+        width: 100%;    
+        height: 108px;
+        border-radius: 20px;
+        background-color: transparent;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 25px;
+    }
+    .form input{
+        height: 46px;
+        width: 100%;
+        border: none;
+        outline: none;
+        border-radius: 20px;
+        padding: 0 15px;
+        font-size: 18px;
+        color: grey;
+    }
+    .bottom_btn{
+        height: 46px;
+        width: 100%;
+        border: none;
+        background-color: var(--bg);
+        border-radius: 20px;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 22px;
+        color: var(--oq);
+    }
+
 }
 
 
@@ -1650,6 +1822,75 @@ body {
         font-weight: 600;
         font-size: 51px;
         line-height: 56px;
+        color: var(--oq);
+    }
+    /* bottom section style start */
+    .bottom_section_container{
+        width: 100%;
+        height: 430px;
+        border-radius: 20px;
+        background-color: #3B3B3B;
+        padding: 40px;
+        display: flex;
+        flex-direction: row;
+        column-gap: 20px;
+        
+    }
+    .bottom_left_image_box{
+        width: 90%;
+        height: 100%;
+    }
+    .bottom_left{
+        width: 50%;
+        height: 100%;
+    }
+    .bottom_right{
+        width: 50%;
+        height: auto;
+        display: grid;
+        align-content: space-around;
+    }
+    .title{
+        font-weight: 600;
+        font-size: 38px;
+        line-height: 45px;
+        margin-bottom: 10px;
+    }
+    .text{
+        font-size: 22px;
+        line-height: 35px;
+        font-weight: 400;
+    }
+
+    .form{
+        width: 100%;    
+        height: 60px;
+        border-radius: 20px;
+        background-color: var(--oq);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 25px;
+    }
+    .form input{
+        height: 100%;
+        width: 60%;
+        border: none;
+        outline: none;
+        border-radius: 20px;
+        padding: 0 15px;
+        font-size: 18px;
+        color: grey;
+    }
+    .bottom_btn{
+        height: 100%;
+        width: 40%;
+        border: none;
+        background-color: var(--bg);
+        border-radius: 20px;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 22px;
         color: var(--oq);
     }
 
