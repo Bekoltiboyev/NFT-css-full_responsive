@@ -66,6 +66,41 @@
     color: #FFFFFF;
 }
 
+
+
+
+/* connect style start */
+.connect_left{
+    background-image: url('../images/conneting.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.connect_right{
+    height: 50%;
+}
+.connect_btn{
+    display: grid;
+}
+.connect_items{
+    width: 320px;
+    height: 72px;
+    background-color: #3B3B3B;
+    border: 1px solid #A259FF;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 0 35px;
+    column-gap: 20px;
+}
+.connect_items p{
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
 @media screen and (max-width: 576px) {
     .signup_container{
         width: 100%;
@@ -255,5 +290,10 @@
         line-height: 22px;
         font-weight: 700;
         color: #FFFFFF;
+    }
+    
+    /* connect page */
+    .connect_right{
+        height: 60%;
     }
 }

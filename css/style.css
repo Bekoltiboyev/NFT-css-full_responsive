@@ -911,6 +911,35 @@ body {
 
 /* mobile responsive start */
 @media screen and (max-width: 576px) {
+    /* title style */
+    .title{
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 32px;
+        color: var(--oq);
+        margin-bottom: 14px;
+    }
+    /* text style */
+    .text{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        color: var(--oq);
+        margin-bottom: 0px;
+    }
+    .count{
+        color: var(--oq);
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 35.2px;
+        font-family: 'Space Mono', monospace;
+    }
+    .count_name{
+        color: var(--oq);
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22.4px;
+    }
     .menu_list{
         display: none;
     }
@@ -1226,6 +1255,34 @@ body {
 }
 /* sm */
 @media screen and (min-width: 577px) {
+    .title{
+        font-weight: 600;
+        font-size: 38px;
+        line-height: 45.5px;
+        color: var(--oq);
+        margin-bottom: 14px;
+    }
+    /* text style */
+    .text{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        color: var(--oq);
+        margin-bottom: 10px;
+    }
+    .count{
+        color: var(--oq);
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 35.2px;
+        font-family: 'Space Mono', monospace;
+    }
+    .count_name{
+        color: var(--oq);
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22.4px;
+    }
     .menu_list{
         display: none;
     }
@@ -1527,6 +1584,19 @@ body {
     }
 }
 @media screen and (min-width: 768px) {
+    .count{
+        color: var(--oq);
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 35.2px;
+        font-family: 'Space Mono', monospace;
+    }
+    .count_name{
+        color: var(--oq);
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22.4px;
+    }
     .menu_list{
         display: flex;
     }
@@ -2088,6 +2158,35 @@ body {
         grid-template-columns: 2fr 2fr 3fr;
         grid-template-rows: 191px;
         row-gap: 0;
+    }
+
+    .title{
+        font-weight: 600;
+        font-size: 51px;
+        line-height: 56.1px;
+        color: var(--oq);
+        margin-bottom: 14px;
+    }
+    /* text style */
+    .text{
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 35.2px;
+        color: var(--oq);
+        margin-bottom: 10px;
+    }
+    .count{
+        color: var(--oq);
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 39px;
+        font-family: 'Space Mono', monospace;
+    }
+    .count_name{
+        color: var(--oq);
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 35.2px;
     }
 
 

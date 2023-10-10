@@ -1,0 +1,177 @@
+.rankings_menu{
+    width: 25% !important;
+}
+.rangkings_container{
+    width: 100%;
+    height: auto;
+    padding: 40px 0;
+}
+.artist_menu_box{
+    width: 100%;
+    height: 46px;
+    border: 1px solid #3B3B3B;
+    border-radius: 20px;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.artist_menu_right{
+    width: 50%;
+    display: flex;
+    justify-content: start;
+}
+.artist_menu_right_items{
+    width: 33.3%;
+}
+.artist_menu_text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #858584;
+}
+.artist_users{
+    width: 100%;
+    height: 84px;
+    background-color: #3B3B3B;
+    border-radius: 20px;
+    padding: 0px 12px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.user{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+    column-gap: 15px;
+}
+.user{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+}
+
+.artist_number{
+    width: 30px;
+    height: 30px;
+    background-color: #2B2B2B;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.artist_number p{
+    color: #858584;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    font-family: 'Space Mono', monospace;
+}
+.user_name{
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+.user_total{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+}
+.change{
+    width: 33.3%;
+}
+.change p{
+    color: #00AC4F;
+}
+.sold{
+    width: 33.3%;
+}
+.sold p{
+    color: #FFFFFF;
+}
+.volume{
+    width: 33.3%;
+}
+.volume p{
+    color: #FFFFFF;
+}
+
+
+
+
+@media screen and (max-width: 576px) {
+    .change{
+        display: none;
+    }
+    .sold{
+        display: none;
+    }
+    .user{
+        width: 80%;
+    }
+    .user_total{
+        width: 20%;
+    }
+}
+@media screen and (min-width: 576px) {
+    .change{
+        display: none;
+    }
+    .sold{
+        display: none;
+    }
+    .user{
+        width: 80%;
+    }
+    .user_total{
+        width: 20%;
+    }
+}
+@media screen and (min-width: 768px) {
+    .change{
+        display: block;
+    }
+    .sold{
+        display: none;
+    }
+    .user{
+        width: 70%;
+    }
+    .user_total{
+        width: 30%;
+    }
+}
+@media screen and (min-width: 992px) {
+    .change{
+        display: block;
+    }
+    .sold{
+        display: none;
+    }
+    .user{
+        width: 70%;
+    }
+    .user_total{
+        width: 30%;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .change{
+        display: block;
+    }
+    .sold{
+        display: block;
+    }
+    .user{
+        width: 50%;
+    }
+    .user_total{
+        width: 50%;
+    }
+}
